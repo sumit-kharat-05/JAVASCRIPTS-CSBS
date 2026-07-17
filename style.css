@@ -1,0 +1,26 @@
+#btn {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    margin-left: 1400px;
+    /* margin-top: 200px; */
+    padding-top: 15px;
+    padding-left: 15px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+#btn:hover {
+    height: 60px;
+    width: 110px;
+    text-align: center;
+    padding-top: 18px;
+    padding-left: 18px;
+    box-shadow: inset;
+    font-weight: bold;
+}

@@ -3,7 +3,7 @@
 var subject = "Math";
 console.log(subject);
 
-subject  = "Science";
+subject = "Science";
 console.log(subject);
 
 subject = "English";
@@ -21,7 +21,6 @@ console.log(bag);
 
 //const//
 
-const DOB = '05-10-2006';
+const DOB = "05-10-2006";
 
 console.log(DOB);
-
