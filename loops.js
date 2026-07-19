@@ -55,3 +55,31 @@ do {
   d--;
   console.log(d);
 } while (d > 0);
+
+//For Of Loop//
+
+let names = "SUMIT KHARAT";
+for (let char of names) {
+  console.log(char);
+}
+//Real Life Example//
+
+const cardItems = [{ Price: 500 }, { Price: 300 }];
+let total = 0;
+for (const items of cardItems) {
+  total += items.Price;
+}
+console.log(total);
+
+//For In Loop//
+
+const formData = {
+  name: "SUMIT",
+  email: "",
+};
+for (let key in formData) {
+  if (!formData[key]);
+  {
+    console.log(`${key} Is Empty`);
+  }
+}
