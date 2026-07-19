@@ -17,8 +17,8 @@
 
   //If - Else - If Statement//
 
-  const marks = prompt("Enter Your Marks");
-  console.log(marks);
+  // const marks = prompt("Enter Your Marks");
+  // console.log(marks);
 
   if (marks >= 90) {
     console.log("Grade A");
