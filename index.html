@@ -11,14 +11,57 @@
 
     <input type="text" name="" id="name" placeholder="Enter Your Name" />
     <input type="text" name="" id="who" placeholder="Your Enter Name" />
-    <br><br>
+    <br /><br />
     <button id="b1" onclick="getValue()">Get Value</button>
     <button id="b2" onclick="setValue()">Set Value</button>
     <button id="b3" onclick="removeValue()">Remove Value</button>
     <button id="b3" onclick="copyValue()">Copy Value</button>
-    <br><br><hr>
-    <input type="password" name="" id="pin" placeholder="Enter Your Pin">
+    <br /><br />
+    <hr />
+    <input type="password" name="" id="pin" placeholder="Enter Your Pin" />
     <button type="submit" onclick="checkPin()">Submit</button>
+    <br /><br />
+    <input
+      type="text"
+      name="name"
+      id="i1"
+      oninput="hndlInputField(event)"
+      onkeyup="hndlHandledKeyUp()"
+      onkeydown="hndlHandledKeyDown()"
+      onkeypress="hndlKeyPress()"
+      onfocus="hndlFocus()"
+      onblur="hndlBlur(event)"
+      placeholder="Enter Your Name :"
+    />
+    <input
+      type="text"
+      name="age"
+      id="i2"
+      oninput="hndlInputField(event)"
+      onblur="hndlBlur(event)"
+      placeholder="Enter Your Age :"
+    />
+    <input
+      type="text"
+      name="email"
+      id="i3"
+      oninput="hndlInputField(event)"
+      placeholder="Enter Your Email :"
+    />
+    <br /><br />
+    <input type="text" name="" id="usrName" placeholder="Enter User Name" />
+    <br /><br />
+    <button onclick="updtStyle()">Update Style</button>
+    <br /><br />
+    <input
+      type="range"
+      name=""
+      id="rng"
+      step="10"
+      oninput="hndlRange(event)"
+      max="300"
+      min="110"
+    />
   </body>
   <script src="variable.js"></script>
   <script src="datatypes.js"></script>
@@ -34,4 +77,6 @@
   <script src="loops.js"></script>
   <script src="break-continue.js"></script>
   <script src="input-field.js"></script>
+  <script src="input-fields-events.js"></script>
+  <script src="input-field-style.js"></script>
 </html>
