@@ -66,13 +66,23 @@
     <input type="text" id="user" placeholder="Enter username" />
     <span id="userMsg" style="display: none; color: red"></span>
     <br /><br />
-    <input
+    <!-- <input
       type="text"
       name=""
       id=""
       onblur="returnPosition()"
+      onblur="deleteItems(event)"
       placeholder="Enter position"
-    />
+    /> -->
+    <span>Element Position</span>
+    <input type="text" id="pos" placeholder="Enter Position" />
+    <br /><br />
+    <span>Element Value</span>
+    <input type="text" id="value" placeholder="Enter value" />
+    <br /><br />
+    <button onclick="addElement()">Add</button>
+    <br><br>
+    <ul id="list"></ul>
   </body>
   <script src="variable.js"></script>
   <script src="datatypes.js"></script>
