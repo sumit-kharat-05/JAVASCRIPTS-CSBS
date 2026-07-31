@@ -25,7 +25,7 @@
     font-weight: bold;
 }
 
-#name,#who {
+#name,#who,#i1 {
     height: 35px;
     width: 200px;
     border: solid whitesmoke;
@@ -33,7 +33,7 @@
     text-align: center;
 }
 
-#name,#who:hover {
+#name,#who,#i1:hover {
     height: 38px;
     width: 210px;
     border: 5px solid whitesmoke;
@@ -42,7 +42,7 @@
     transition: all 0.5 ease-in;
 }
 
-#name,#who:focus {
+#name,#who,#i1:focus {
     border: 5px solid skyblue;
 }
 #b1,#b2,#b3
