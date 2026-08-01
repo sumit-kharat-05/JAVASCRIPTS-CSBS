@@ -15,4 +15,4 @@ function handleSearch(inptfld)
 
 Timer = setTimeout(() => {
     callApi();
-}, 2000);
+}, 2000);d
