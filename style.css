@@ -114,3 +114,8 @@
     display: flex;
     flex-direction: column;
 }
+label{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
