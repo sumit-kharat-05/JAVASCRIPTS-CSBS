@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS</title>
     <link rel="stylesheet" href="style.css" />
-    
   </head>
   <body>
     <button onclick="alertShow()" id="btn">Show Alert</button>
@@ -313,9 +312,12 @@
     <button>Remove Data</button>
     <br /><br />
     <custom-element name="name" id="name"></custom-element>
-   <custom-element name="email" id="email"></custom-element>
-   <custom-element name="age" id="age"></custom-element>
-   <button onclick="getAccess()">Access</button>
+    <custom-element name="email" id="email"></custom-element>
+    <custom-element name="age" id="age"></custom-element>
+    <button onclick="getAccess()">Access</button>
+    <br><br><br><br>
+    <button onclick="apiCall()">API Call</button>
+    <button onclick="abortapiCall()">Abort API Call</button>
   </body>
   <script src="variable.js"></script>
   <script src="datatypes.js"></script>
@@ -376,5 +378,14 @@
   <script src="SessionStorage.js"></script>
   <script src="Web-Component.js"></script>
   <script src="Shallow-Deep-Copy.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.core.js" integrity="sha512-C0afWIPdzlVjwwblFJpwtKTrzExaBUyh0ZqtrHnKvOlwPUfgs9JfAxZgB4MAzbSQSwppapCXuTsBcnJkhaAOOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.core.js"
+    integrity="sha512-C0afWIPdzlVjwwblFJpwtKTrzExaBUyh0ZqtrHnKvOlwPUfgs9JfAxZgB4MAzbSQSwppapCXuTsBcnJkhaAOOw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="./rest & spread operator.js"></script>
+  <script src="./optional-chaining.js"></script>
+  <script src="./nullish-coalscening.js"></script>
+  <script src="./abort-api-call.js"></script>
 </html>
