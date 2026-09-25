@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
   </head>
   <body>
     <button onclick="alertShow()" id="btn">Show Alert</button>
@@ -315,77 +315,96 @@
     <custom-element name="email" id="email"></custom-element>
     <custom-element name="age" id="age"></custom-element>
     <button onclick="getAccess()">Access</button>
-    <br><br><br><br>
+    <br /><br /><br /><br />
     <button onclick="apiCall()">API Call</button>
     <button onclick="abortapiCall()">Abort API Call</button>
+    <br /><br />
+    <button onclick="setCookies('light')">Set Light Theme</button>
+    <button onclick="setCookies('dark')">Set Dark Theme</button>
+    <button onclick="displayCookies()">Display Cookies</button>
+    <button onclick="expiryCookies()">Set Expiry Date</button>
+    <br /><br />
+    <div id="dv1" style="height: 100vh; background-color:lightblue">Block 1</div>
+    <br>
+    <div id="dv2" style="height: 200px; background-color:lightgreen">Block 2</div>
+    <br>
+    <div id="dv3" style="height: 300px; background-color:lightpink">Block 3</div>
+    <br><br>
+    <button onclick="getGeoLocation()">GetGeoLocation</button>
+    <br><br><br>
   </body>
-  <script src="variable.js"></script>
-  <script src="datatypes.js"></script>
-  <script src="function.js"></script>
-  <script src="arithmatic-operators.js"></script>
-  <script src="assignment-operators.js"></script>
-  <script src="logical-operators.js"></script>
-  <script src="conditional-statement.js"></script>
-  <script src="ternary-operators.js"></script>
-  <script src="type-operators.js"></script>
-  <script src="string-methods.js"></script>
-  <script src="template-literals.js"></script>
-  <script src="loops.js"></script>
-  <script src="break-continue.js"></script>
-  <script src="input-field.js"></script>
-  <script src="input-fields-events.js"></script>
-  <script src="input-field-style.js"></script>
-  <script src="input-field-validation.js"></script>
-  <script src="array.js"></script>
-  <script src="objects.js"></script>
-  <script src="objects-methods.js"></script>
-  <script src="objects-UI.js"></script>
-  <script src="array-objects.js"></script>
-  <script src="function-declaration.js"></script>
-  <script src="function-expression.js"></script>
-  <script src="anonymous-function.js"></script>
-  <script src="arrow-function.js"></script>
-  <script src="IIFE.js"></script>
-  <script src="callback-function.js"></script>
-  <script src="function-curring.js"></script>
-  <script src="function-closure.js"></script>
-  <script src="lexical-scope.js"></script>
-  <script src="hoisting.js"></script>
-  <script src="call-stack.js"></script>
-  <script src="web-apis.js"></script>
-  <script src="promise.js"></script>
-  <script src="async-await.js"></script>
-  <script src="real-api-fetch.js"></script>
-  <script src="event-loop.js"></script>
-  <script src="this.js"></script>
-  <script src="arrow-in-this.js"></script>
-  <script src="call-apply.js"></script>
-  <script src="bind.js"></script>
-  <script src="debounce.js"></script>
-  <script src="throttling.js"></script>
-  <script src="event-delegation.js"></script>
-  <script src="map.js"></script>
-  <script src="filter.js"></script>
-  <script src="reduce.js"></script>
-  <script src="function-chaining.js"></script>
-  <script src="constructor-function.js"></script>
-  <script src="prototype.js"></script>
-  <script src="getter-setter.js"></script>
-  <script src="event-propagation.js"></script>
-  <script src="DOM.js"></script>
-  <script src="form-handling.js"></script>
-  <script src="LocalStorage.js"></script>
-  <script src="SessionStorage.js"></script>
-  <script src="Web-Component.js"></script>
-  <script src="Shallow-Deep-Copy.js"></script>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.core.js"
     integrity="sha512-C0afWIPdzlVjwwblFJpwtKTrzExaBUyh0ZqtrHnKvOlwPUfgs9JfAxZgB4MAzbSQSwppapCXuTsBcnJkhaAOOw=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   ></script>
-  <script src="./rest & spread operator.js"></script>
-  <script src="./optional-chaining.js"></script>
-  <script src="./nullish-coalscening.js"></script>
-  <script src="./abort-api-call.js"></script>
-</html>
+  <script src="../JAVASCRIPT/abort-api-call.js"></script>
+  <script src="../JAVASCRIPT/anonymous-function.js"></script>
+  <script src="../JAVASCRIPT/arithmatic-operators.js"></script>
+  <script src="../JAVASCRIPT/array-objects.js"></script>
+  <script src="../JAVASCRIPT/array.js"></script>
+  <script src="../JAVASCRIPT/arrow-function.js"></script>
+  <script src="../JAVASCRIPT/arrow-in-this.js"></script>
+  <script src="../JAVASCRIPT/assignment-operators.js"></script>
+  <script src="../JAVASCRIPT/async-await.js"></script>
+  <script src="../JAVASCRIPT/bind.js"></script>
+  <script src="../JAVASCRIPT/break-continue.js"></script>
+  <script src="../JAVASCRIPT/call-apply.js"></script>
+  <script src="../JAVASCRIPT/call-stack.js"></script>
+  <script src="../JAVASCRIPT/callback-function.js"></script>
+  <script src="../JAVASCRIPT/conditional-statement.js"></script>
+  <script src="../JAVASCRIPT/constructor-function.js"></script>
+  <script src="../JAVASCRIPT/cookies.js"></script>
+  <script src="../JAVASCRIPT/datatypes.js"></script>
+  <script src="../JAVASCRIPT/debounce.js"></script>
+  <script src="../JAVASCRIPT/DOM.js"></script>
+  <script src="../JAVASCRIPT/event-delegation.js"></script>
+  <script src="../JAVASCRIPT/event-loop.js"></script>
+  <script src="../JAVASCRIPT/event-propagation.js"></script>
+  <script src="../JAVASCRIPT/filter.js"></script>
+  <script src="../JAVASCRIPT/form-handling.js"></script>
+  <script src="../JAVASCRIPT/function-chaining.js"></script>
+  <script src="../JAVASCRIPT/function-closure.js"></script>
+  <script src="../JAVASCRIPT/function-curring.js"></script>
+  <script src="../JAVASCRIPT/function-declaration.js"></script>
+  <script src="../JAVASCRIPT/function-expression.js"></script>
+  <script src="../JAVASCRIPT/function.js"></script>
+  <script src="../JAVASCRIPT/geolocation-api.js"></script>
+  <script src="../JAVASCRIPT/getter-setter.js"></script>
+  <script src="../JAVASCRIPT/hoisting.js"></script>
+  <script src="../JAVASCRIPT/IIFE.js"></script>
+  <script src="../JAVASCRIPT/input-field-style.js"></script>
+  <script src="../JAVASCRIPT/input-field-validation.js"></script>
+  <script src="../JAVASCRIPT/input-field.js"></script>
+  <script src="../JAVASCRIPT/input-fields-events.js"></script>
+  <script src="../JAVASCRIPT/intersection-observer.js"></script>
+  <script src="../JAVASCRIPT/lexical-scope.js"></script>
+  <script src="../JAVASCRIPT/LocalStorage.js"></script>
+  <script src="../JAVASCRIPT/logical-operators.js"></script>
+  <script src="../JAVASCRIPT/loops.js"></script>
+  <script src="../JAVASCRIPT/map.js"></script>
+  <script src="../JAVASCRIPT/memory-leak.js"></script>
+  <script src="../JAVASCRIPT/nullish-coalscening.js"></script>
+  <script src="../JAVASCRIPT/objects-methods.js"></script>
+  <script src="../JAVASCRIPT/objects-UI.js"></script>
+  <script src="../JAVASCRIPT/objects.js"></script>
+  <script src="../JAVASCRIPT/optional-chaining.js"></script>
+  <script src="../JAVASCRIPT/promise.js"></script>
+  <script src="../JAVASCRIPT/prototype.js"></script>
+  <script src="../JAVASCRIPT/real-api-fetch.js"></script>
+  <script src="../JAVASCRIPT/reduce.js"></script>
+  <script src="../JAVASCRIPT/rest & spread operator.js"></script>
+  <script src="../JAVASCRIPT/SessionStorage.js"></script>
+  <script src="../JAVASCRIPT/Shallow-Deep-Copy.js"></script>
+  <script src="../JAVASCRIPT/string-methods.js"></script>
+  <script src="../JAVASCRIPT/template-literals.js"></script>
+  <script src="../JAVASCRIPT/ternary-operators.js"></script>
+  <script src="../JAVASCRIPT/this.js"></script>
+  <script src="../JAVASCRIPT/throttling.js"></script>
+  <script src="../JAVASCRIPT/try-catch.js"></script>
+  <script src="../JAVASCRIPT/type-operators.js"></script>
+  <script src="../JAVASCRIPT/variable.js"></script>
+  <script src="../JAVASCRIPT/web-apis.js"></script>
+  <script src="../JAVASCRIPT/Web-Component.js"></script>
+  </html>
