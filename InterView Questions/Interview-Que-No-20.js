@@ -1,3 +1,3 @@
-// What will console.log(..."Hello"); output? **
+//Que:-  What will console.log(..."Hello"); output? **
 
 console.log(..."Hello");
